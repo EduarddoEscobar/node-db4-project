@@ -14,16 +14,16 @@
             "program": "${workspaceFolder}\\data\\db-config.js"
         },
         {
-            "type": "node",
+            "type": "node", 
             "request": "launch",
             "name": "nodemon",
-            "runTimeExecutable": "nodemon",
+            "runtimeExecutable": "nodemon",
             "program": "${workspaceFolder}/index.js",
             "restart": true,
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "env": {
-                "debug": "app:*"
+                "debug": "app:*",
             }
         }
     ]
